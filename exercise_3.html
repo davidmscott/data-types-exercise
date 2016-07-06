@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<script>
+		/*
+		* Why does the following print NaN?
+
+			-Because a is [undefined] which doesn't add well with 3
+
+		* How could we fix the following so that it prints 3?
+
+			-change "var a;" to "var a = 0;"
+
+		*/
+
+		var a;
+		a = a + 3;
+
+		console.log(a);
+
+	</script>
+</body>
+</html>
